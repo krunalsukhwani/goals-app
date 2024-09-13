@@ -3,9 +3,14 @@ import "./App.css";
 
 const App = () => {
   return (
-    <h1 title="Welcome Message">
-      Hello Friends, This is my react application.
-    </h1>
+    <div className="course-goals">
+      <h2>Course Goals</h2>
+      <ul className="goal-list">
+        <li>Create React Application</li>
+        <li>Learn full stack tools and technologies</li>
+        <li>Complete Assignment, Quizes and Tests</li>
+      </ul>
+    </div>
   );
 };
 
